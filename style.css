@@ -1,3 +1,38 @@
 *{
     box-sizing: border-box;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: darkgreen;
+}
+.pic{
+    flex: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.head{
+text-align: center;
+color: red;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color:rgb(206, 231, 231);
+    background-color: teal;
+}
+.aside-main-wrapper{
+    display: flex;
+}
+.aside{
+    flex: 30%;
+    color:rgb(206, 231, 231);
+}
+.main{
+    flex: 70%;
+    color:rgb(206, 231, 231);
+    text-align: end;
+    text-align: right;
+}
