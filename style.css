@@ -4,10 +4,10 @@
 .container{
     display: flex;
     flex-direction: column;
-    background-color: darkgreen;
+    background-color: rgb(196, 218, 196);
+    max-width: 100%;
 }
 .pic{
-    flex: 100%;
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -16,23 +16,67 @@
 text-align: center;
 color: red;
 }
+.nav-links{
+    color: white;
+    background-color: red;
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 100px;
     color:rgb(206, 231, 231);
     background-color: teal;
 }
 .aside-main-wrapper{
     display: flex;
+    flex-flow: wrap;
 }
 .aside{
     flex: 30%;
-    color:rgb(206, 231, 231);
-}
+    max-width: 30%;
+    background-color: #F1F1F1;
+
 .main{
+    display: flex;
     flex: 70%;
-    color:rgb(206, 231, 231);
-    text-align: end;
-    text-align: right;
+    max-width: 70%;
+    text-align:center;
+    background-color: white;
+    flex-direction: column;
 }
+@media (max-width: 800px) {
+    .pic, .nav-bar, .aside, .sub-main {
+      background-color: lightblue;
+      flex:100%;
+    }
+  }
+
+.main-1{
+ text-align: left;
+ column-count: 2;
+ align-items: left;
+ background-color: rgb(216, 216, 221);
+ padding: 10px;
+  }
+  .main-2{
+    text-align:left;
+    column-count: 2;
+    background-color: rgb(216, 216, 221);
+    padding: 10px;
+ }
+ .main-3{
+    text-align: left;
+    column-count: 2;
+    background-color: rgb(216, 216, 221);
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    
+}
+.all-wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+     
