@@ -1,52 +1,101 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script src="index.js"></script>
-  <script src="index2.js"></script>
-  <script>
-    var name="tajus";
-    //document.write(name)
-    name="abu"
-    document.write(name)
-  </script>
-  <script>
-    document.write("ddddd"+" ggggg")
-    var firstName="abdur";
-    lastName=" rahman";
-    fullName=firstName+lastName
-    document.write("name is " + fullName);
-    var number1=10;
-    var number2=30;
-    document.write("Number1="+number1+"and Number2="+number2)
-  </script>
-  <script>
-    var country="Bangladesh";
-    var about=country.length;
-    document.write("Number of character"+country.length);
-    var name=prompt("type your name")
-    var name="Bangladesh";
-    document.write(name.charAt(2));
-    var who="Bangladesh"
-    who=who.toUpperCase();
-    document.write(who);
-    var test1="bangladesh";
-    var test2=" is a buty";
-    var test=test1.concat(test2);
-    document.write(test);
-    var test="Bangladesh"
-    test=test.slice(0,2);
-    document.write(test);
-  </script>
-  <script>
-    var x=3;
-    x+=6;//x=x+6
-    console.log(x);
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--<script src="index.js"></script>
+    <script src="index2.js"></script>
+    <script src="index2.js"></script>
+    <script>
+      var name = "tajus";
+      //document.write(name)
+      name = "abu";
+      document.write(name);
+    </script>
+    <script>
+      document.write("ddddd" + " ggggg");
+      var firstName = "abdur";
+      lastName = " rahman";
+      fullName = firstName + lastName;
+      document.write("name is " + fullName);
+      var number1 = 10;
+      var number2 = 30;
+      document.write("Number1=" + number1 + "and Number2=" + number2);
+    </script>
+    <script>
+      var country = "Bangladesh";
+      var about = country.length;
+      document.write("Number of character" + country.length);
+      var name = "Bangladesh";
+      document.write(name.charAt(2));
+      var who = "Bangladesh";
+      who = who.toUpperCase();
+      document.write(who);
+      var test1 = "bangladesh";
+      var test2 = " is a buty";
+      var test = test1.concat(test2);
+      document.write(test);
+      var test = "Bangladesh";
+      test = test.slice(0, 2);
+      document.write(test);
+    </script>
+    <!-- <script>
+      var x=3;
+      x/=6;//x=x/6
+      console.log(x);
+      var number1,number2;
+      number1=20;
+      number2=10;
+      var sum
+      sum=number1+number2
+      document.write("sum = " + sum);
+      var num1, num2;
+      num1=50;num2=30;
+      var sub;
+      sub=num1-num2;
+      document.write("sub="+sub);
+    </script> -->
+    <script>
+      var num1, num2,sum,sub,mul,div,result;
+      num1 = prompt("value1");
+      num2 = prompt("value2");
+      num1=parseInt(num1,10);
+      num2=parseInt(num2,10);
+      result=num1+num2;
+      document.write(num1+"+"+num2+"="+result+"<br>");
+      result=num1-num2;
+      document.write(num1+"-"+num2+"="+result+"<br>");
+      result=num1*num2;
+      document.write(num1+"*"+num2+"="+result+"<br>");
+      result=num1/num2;
+      document.write(num1+"/"+num2+"="+result);
+    </script>--->
+    <!-- <script>
+      var base,height,area;
+      area=base * height;
+      base=parseFloat(prompt("base"));
+      height=parseFloat(prompt("height"));
+      document.write(area);
+    </script>
+<script>
+  var cel, faren;
+  cel=parseFloat(prompt("cel"));
+  //faren=parseFloat(prompt(" faren"));
+  //cel=(faren-32)*(5/9);
+  faren=((cel*9/5)+32)
+  document.write(faren);
+</script>
+<script src="posi.js"></script>
+<script src="marks/marks.js"></script>
+<script src="marks/3number.js"></script>
+<script src="marks/small-num.js"></script>-->
+<!-- <script src="marks/vowel.js"></script> -->
+<!-- <script src="marks/tarn.js"></script>  -->
+<script src="marks/xm2.js"></script> 
+<!-- <script src="marks/xm.js"></script> -->
+  </body>
 </html>

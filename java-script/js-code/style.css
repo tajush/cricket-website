@@ -1,0 +1,22 @@
+/* .para{
+    color: blue;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+} */
+
+
+
+.me{
+color: blue;
+background-color: brown;
+}
+.bt{
+    color: blue;
+background-color: brown;
+}
+
+
+.anima{
+    box-shadow: 0 15px 18px tomato;
+}

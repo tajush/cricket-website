@@ -3,7 +3,7 @@ document.write("abdur rahman")
 document.write("abdur rahman")
 document.write("abdur rahman")
 document.write("abdur rahman")
-document.write("abdur rahman")*/
+document.write("abdur rahman")
 document.write("abdur rahman")
 var namee = "20.5";
 namee=toString(namee)
